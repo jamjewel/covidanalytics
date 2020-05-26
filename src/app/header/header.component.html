@@ -1,0 +1,41 @@
+<div class="header navbar">
+  <div class="header-container">
+    <ul class="nav-left" *ngIf="userIsAuthenticated">
+      <li>
+        <a id="sidebar-toggle" class="sidebar-toggle" href="/" style="font-weight: 600 !important;"> COVID ANALYSIS</a>
+      </li>
+      <li>
+        <a id="sidebar-toggle" class="sidebar-toggle" href="/">
+          GLOBAL
+        </a>
+      </li>
+      <li>
+        <a id="sidebar-toggle" class="sidebar-toggle" href="/country">
+          COUNTRY
+        </a>
+      </li>
+      <li>
+        <a id="sidebar-toggle" class="sidebar-toggle" href="/map">
+          MAP
+        </a>
+      </li>
+      <li>
+        <a id="sidebar-toggle" class="sidebar-toggle" href="/analytics">
+          ANALYTICS
+        </a>
+      </li>
+    </ul>
+    <ul class="nav-left" *ngIf="!userIsAuthenticated">
+      <li>
+        <a id="sidebar-toggle" class="sidebar-toggle" href="/" style="font-weight: 600 !important;"> COVID ANALYSIS
+          LOGIN</a>
+      </li>
+
+    </ul>
+    <ul class="nav-right">
+      <li>
+        <a id="sidebar-toggle" class="sidebar-toggle" href="/login" style="font-weight: 600 !important;"> LOGOUT </a>
+      </li>
+    </ul>
+  </div>
+</div>

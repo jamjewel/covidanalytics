@@ -1,0 +1,23 @@
+mat-form-field {
+  width: 100%;
+}
+
+mat-spinner {
+  margin: auto;
+}
+
+.App {
+	margin-top: 15px;
+}
+
+.App .navbar-brand {
+	font-weight: bold;
+}
+
+.login {
+  padding: 60px 0;
+  margin: 0 292px;
+  border: 1px solid #e3e3e3;
+  -webkit-box-shadow: 0px 4px 5px 0px #ccc;
+  box-shadow: 0px 4px 5px 0px #ccc;
+}
